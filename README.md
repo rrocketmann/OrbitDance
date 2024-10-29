@@ -8,8 +8,6 @@ The term is also used metaphorically in discussions about complex systems, chaos
 
 This complitly open source program lets us see the astrophisics problem in action using both numpy to calulate the trajectories and pygame zero to display it on the screen.
 
-![3bdy](https://hackmd.io/_uploads/HJnZ0s6lye.gif)
-
 ```
 import pgzrun
 import numpy
