@@ -1,4 +1,4 @@
-# n-body-problem
+# OrbitDance
 A simple yet efficient gravitational simulater.
 
 ## The 3 body problem:
