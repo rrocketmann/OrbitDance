@@ -23,7 +23,7 @@ dt = 0.01
 
 # creating the screen and clock
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
-pygame.display.set_caption("hello_world")
+pygame.display.set_caption("OrbitDance")
 screen.fill((0, 0, 0))
 clock = pygame.time.Clock()
 
