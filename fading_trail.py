@@ -23,7 +23,7 @@ dt = 0.01
 
 # creating the screen, clock, and dimmer surface
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
-pygame.display.set_caption("hello_world")
+pygame.display.set_caption("OrbitDance")
 screen.fill((0, 0, 0))
 clock = pygame.time.Clock()
 draw_surface = pygame.Surface((WIDTH,HEIGHT))
