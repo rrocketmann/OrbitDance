@@ -28,7 +28,7 @@ screen.fill((0, 0, 0))
 clock = pygame.time.Clock()
 
 def draw():
-    # drawing the astronomical bodies and clearing the screen
+    # drawing the astronomical bodies but not clearing the screen
     global p1, p2, p3, screen
     pygame.draw.circle(screen, (0, 255, 255), p1, 1)
     pygame.draw.circle(screen, (255, 0, 255), p2, 1)
