@@ -1,12 +1,20 @@
 ## OrbitDance
 
-A simple yet efficient gravitational simulator primarly used to simulate the gravitational interactions between three astronomical bodies.
+A simple yet efficient gravitational simulator primarly used to simulate the 
+gravitational interactions between three astronomical bodies.
 
 ### A brief definition of the 3 body problem
 
-The "Three-Body Problem" refers to a classic physics problem that deals with predicting the motion of three astronomical bodies under their gravitational influence. Unlike the two-body problem, which has a well-defined solution, the three-body problem is complex and often chaotic, making it difficult to predict the exact positions and velocities of the bodies.
+The "Three-Body Problem" refers to a classic physics problem that deals with predicting 
+the motion of three astronomical bodies under their gravitational influence. Unlike the 
+two-body problem, which has a well-defined solution, the three-body problem is complex 
+and often chaotic, making it difficult to predict the exact positions and velocities of 
+the bodies.
 
-The inherent unpredictability and instability of the three-body problem serves as a powerful analogy for various challenges in science but sometimes also politics.This open source program lets us visualize the astrophysics problem using the python programming language.
+The inherent unpredictability and instability of the three-body problem serves as a 
+powerful analogy for various challenges in science but sometimes also politics. 
+This open source program lets us visualize the astrophysics problem using the 
+python programming language.
 
 #### main.py
 
