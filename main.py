@@ -41,6 +41,7 @@ def draw():
 def update(dt):
     global p1, v1, p2, v2, p3, v3, G
 
+    # updating positions
     p1 += dt * v1
     p2 += dt * v2
     p3 += dt * v3
