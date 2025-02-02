@@ -3,7 +3,7 @@ import pygame
 import numpy
 import sys
 
-# setting constants
+# setting constants and variables
 WIDTH = 420
 HEIGHT = 400
 m1 = 10
@@ -34,15 +34,15 @@ def draw():
     # drawing the astronomical bodies and making the old paths look dimmer
     global p1, p2, p3, screen, draw_surface
     screen.blit(draw_surface, (0, 0))
-    pygame.draw.circle(screen, (0, 255, 255), p1, 10)
-    pygame.draw.circle(screen, (255, 0, 255), p2, 10)
-    pygame.draw.circle(screen, (255, 255, 0), p3, 10)
+    pygame.draw.circle(screen, (0, 200, 200), p1, 10)
+    pygame.draw.circle(screen, (200, 0, 200), p2, 10)
+    pygame.draw.circle(screen, (200, 200, 0), p3, 10)
     pygame.display.flip()
 
 def update(dt):
     global p1, v1, p2, v2, p3, v3, G
 
-    # updating positions
+    # updating the positions
     p1 += dt * v1
     p2 += dt * v2
     p3 += dt * v3
